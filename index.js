@@ -24,7 +24,6 @@ rangeInput.addEventListener("input", () => {
   generatePassword();
 });
 
-
 copyIcon.addEventListener("click", () => {
   navigator.clipboard.writeText(passwordInput.value);
 });
