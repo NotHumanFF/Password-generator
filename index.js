@@ -33,3 +33,5 @@ generateButton.addEventListener("click", () => {
   navigator.clipboard.writeText(passwordInput.value);
   generateButton.innerText = "Copied"
 });
+
+
